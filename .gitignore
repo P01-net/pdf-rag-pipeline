@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated vector database
+rag_index/
+
+# Personal and test documents
+amexgovernance.pdf
+*.pdf
+
+# Secrets
+*.pem
+*.key
+
+# Editor and operating system
+.DS_Store
+.vscode/
+.idea/
